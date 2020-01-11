@@ -1,1 +1,61 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "alex_brushregular";
+    src: url("assets/fonts/alexbrush-regular-webfont.woff2") format("woff2"),
+         url("assets/fonts/alexbrush-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.spl-text,
+h1 {
+    font-family: "alex_brushregular";
+    font-size: 24px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+p,
+h2 {
+    font-family: "alex_brushregular";
+    font-size: 19px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+h3 {
+    font-family: "alex_brushregular";
+    font-size: 14px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+    /* font-family: "alex_brushregular";
+    font-size: 14px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+} */
+
+blockquote {
+    font-family: "alex_brushregular";
+    font-size: 21px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+pre {
+    font-family: "alex_brushregular";
+    font-size: 13px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5667px;
+}
