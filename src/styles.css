@@ -15,6 +15,7 @@
     line-height: 26.4px;
 }
 
+th, td,
 p, h2 {
     font-family: "alex_brushregular";
     font-size: 19px;
@@ -23,7 +24,6 @@ p, h2 {
     font-weight: 700;
     line-height: 26.4px;
 }
-
 h3 {
     font-family: "alex_brushregular";
     font-size: 14px;
