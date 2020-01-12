@@ -6,3 +6,7 @@ input {
 .card-img-top {
     object-fit: cover;
 }
+
+.bold {
+    font-weight: bold;
+}

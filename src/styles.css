@@ -1,13 +1,12 @@
 @font-face {
     font-family: "alex_brushregular";
-    src: url("assets/fonts/alexbrush-regular-webfont.woff2") format("woff2"),
-         url("assets/fonts/alexbrush-regular-webfont.woff") format("woff");
+    src: url("assets/fonts/alexbrush-regular-webfont.woff2") format("woff2"), url("assets/fonts/alexbrush-regular-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
-.spl-text,
-h1 {
+
+.spl-text, h1 {
     font-family: "alex_brushregular";
     font-size: 24px;
     font-style: italic;
@@ -15,8 +14,8 @@ h1 {
     font-weight: 700;
     line-height: 26.4px;
 }
-p,
-h2 {
+
+p, h2 {
     font-family: "alex_brushregular";
     font-size: 19px;
     font-style: italic;
@@ -34,7 +33,7 @@ h3 {
     line-height: 15.4px;
 }
 
-    /* font-family: "alex_brushregular";
+/* font-family: "alex_brushregular";
     font-size: 14px;
     font-style: italic;
     font-variant: normal;
@@ -58,4 +57,8 @@ pre {
     font-variant: normal;
     font-weight: 400;
     line-height: 18.5667px;
+}
+
+.heart {
+    color: red;
 }
