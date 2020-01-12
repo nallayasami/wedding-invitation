@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SnowFlakeComponent } from './snow-flake/snow-flake.component';
 
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,8 @@ import { SnowFlakeComponent } from './snow-flake/snow-flake.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFontAwesomeModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
