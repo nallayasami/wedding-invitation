@@ -9,7 +9,7 @@
 .spl-text, h1 {
     font-family: "alex_brushregular";
     font-size: 24px;
-    font-style: italic;
+    
     font-variant: normal;
     font-weight: 700;
     line-height: 26.4px;
@@ -19,7 +19,7 @@ th, td,
 p, h2 {
     font-family: "alex_brushregular";
     font-size: 19px;
-    font-style: italic;
+    
     font-variant: normal;
     font-weight: 700;
     line-height: 26.4px;
@@ -27,7 +27,7 @@ p, h2 {
 h3 {
     font-family: "alex_brushregular";
     font-size: 14px;
-    font-style: italic;
+    
     font-variant: normal;
     font-weight: 700;
     line-height: 15.4px;
@@ -36,7 +36,7 @@ h3 {
 blockquote {
     font-family: "alex_brushregular";
     font-size: 21px;
-    font-style: italic;
+    
     font-variant: normal;
     font-weight: 400;
     line-height: 30px;
@@ -45,12 +45,24 @@ blockquote {
 pre {
     font-family: "alex_brushregular";
     font-size: 13px;
-    font-style: italic;
+    
     font-variant: normal;
     font-weight: 400;
     line-height: 18.5667px;
 }
 
-.heart {
-    color: red;
+body {
+    background-image: url("/assets/red.jpg");
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    color: brown !important;
 }
+
+
+/* mediumvioletred
+forestgreen
+deeppink
+darkmagenta
+firebrick  */

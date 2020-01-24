@@ -4,9 +4,26 @@ input {
 }
 
 .card-img-top {
-    object-fit: cover;
+    object-fit: scale-down;
+    width: 40vw;
+    align-self: center;
+    filter: drop-shadow(1);
 }
 
 .bold {
     font-weight: bold;
+}
+
+div {
+    background-color: unset !important;
+    border: none !important;
+}
+
+.heart {
+    color: red;
+}
+
+.border{
+    position: absolute;
+    left: 0;
 }
