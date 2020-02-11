@@ -8,12 +8,14 @@ import { HomeComponent } from './home/home.component';
 import { SnowFlakeComponent } from './snow-flake/snow-flake.component';
 
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { ReceptionComponent } from './reception/reception.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SnowFlakeComponent
+    SnowFlakeComponent,
+    ReceptionComponent
   ],
   imports: [
     BrowserModule,
