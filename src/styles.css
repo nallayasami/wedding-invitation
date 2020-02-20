@@ -57,7 +57,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.review-box {
+    display: none !important;
+}
 
 /* mediumvioletred
 forestgreen

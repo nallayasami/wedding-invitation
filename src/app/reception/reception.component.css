@@ -27,3 +27,18 @@ div {
     position: absolute;
     left: 0;
 }
+
+.line {
+    display: inline;
+    font-family: "alex_brushregular";
+    font-size: 30px;
+    
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+.space-italic {
+    font-style: italic;
+    padding: 5px;
+}
